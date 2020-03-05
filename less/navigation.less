@@ -7,15 +7,29 @@ nav {
   display: flex;
   align-items: center;
 
+  @media @mobile {
+    height: 150px;
+  }
+
   .nav-container {
     width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media @mobile {
+      flex-direction: column;
+    }
+
     h1 {
       width: 20%;
       text-align: left;
+
+      @media @mobile {
+        width: 100%;
+        text-align: center;
+      }
     }
 
     .nav-links {
@@ -23,6 +37,10 @@ nav {
       display: flex;
       justify-content: flex-end;
       align-items: center;
+
+      @media @mobile {
+        justify-content: center;
+      }
 
       a {
         padding: 2rem;
