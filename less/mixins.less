@@ -1,1 +1,18 @@
 // Mixins in here
+.para-flex(@a, @b) {
+  display: flex;
+  justify-content: @a;
+  align-items: @b;
+}
+
+.signup() {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  background: @eastern-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: @white;
+  font-size: 2rem;
+}
