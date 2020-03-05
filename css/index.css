@@ -347,3 +347,35 @@ nav .nav-container .nav-links a {
   color: #ffffff;
   font-size: 2rem;
 }
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.contact-container .contact-form {
+  padding: 1rem;
+}
+.contact-container .contact-form input {
+  margin-bottom: 2rem;
+  border: 2px solid #c0c0c0;
+}
+.contact-container .contact-form select {
+  margin-bottom: 2rem;
+  border: 2px solid #c0c0c0;
+}
+.contact-container .contact-form textarea {
+  margin-bottom: 2rem;
+  border: 2px solid #c0c0c0;
+}
+.contact-container .contact-form textarea::placeholder {
+  color: #212529;
+}
+.contact-container .contact-form label {
+  font-size: 1.5rem;
+}
+.contact-container .contact-form button {
+  border: 2px solid #c0c0c0;
+  padding: 1rem;
+}
