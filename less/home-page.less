@@ -1,4 +1,20 @@
 .home {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dashed @silver;
+
+    .header-img {
+      background-image: url(../img/fun-bus.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
+
+    .header-content {
+      padding: 2rem 0;
+    }
+  }
 
   .content-section {
     margin: 30px 0;
@@ -6,8 +22,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -56,6 +70,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .signup();
+      }
     }
   }
-}// home
+} // home
